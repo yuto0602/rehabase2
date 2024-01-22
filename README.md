@@ -1,24 +1,61 @@
-# README
+# アプリケーション名
+REHA BASE
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# アプリケーション概要
+患者のニーズに合わせた治療を検索することができ、その治療のエビデンスグレードについても知ることができる
+# URL
+https://rehabase.onrender.com
+# テスト用アカウント
 
-Things you may want to cover:
+# 利用方法
+## リハビリテーションの検索
+1、トップページ（一覧ページ）へ遷移  
+2、キーワード、カテゴリー等を指定し検索
 
-* Ruby version
+## リハビリテーション内容の投稿
+1、トップページ（一覧ページ）から、新規登録ページへ遷移する  
+2、ユーザーの新規登録を行う  
+3、トップページ等のヘッダーから新規投稿画面へ遷移する  
+4、投稿フォーム内の項目を入力し投稿する  
 
-* System dependencies
+## 投稿に対してのコメント
+1、トップページ（一覧ページ）から、新規登録ページへ遷移する  
+2、ユーザーの新規登録を行う  
+3、興味がある投稿を見つける  
+4、投稿詳細ページへ遷移し、ページ最下部へ移動  
+5、投稿に対しての質問やリハビリテーションの内容についての意見等を入力し、送信する  
 
-* Configuration
+## マイリスト登録
+1、トップページ（一覧ページ）から、新規登録ページへ遷移する  
+2、ユーザーの新規登録を行う  
+3、興味がある投稿を見つける  
+4、投稿詳細ページへと遷移し、タイトル横のリスト登録ボタンを押す  
+5、自身のマイページよりマイリストの確認可能  
 
-* Database creation
 
-* Database initialization
+# アプリケーションを作成した背景
 
-* How to run the test suite
+# 洗い出した要件
+https://docs.google.com/spreadsheets/d/1LJOzNiofhEDTgr8ManRJi1SUHJ99t8n0gdAmNDzDxGk/edit#gid=982722306
+# 実装した機能についての画像・GIFおよびその説明
 
-* Services (job queues, cache servers, search engines, etc.)
+# 実装予定の機能
+優先的にユーザー管理機能、投稿機能、検索機能の実装を行う。  
+その後、コメント機能、マイリストの順で実装予定
 
-* Deployment instructions
+# データベース設計
+![Alt text](rehabase.png)
+# 画面遷移図
+![Alt text](%E9%81%B7%E7%A7%BB%E5%9B%B3.png)
+# 開発環境
+・Ruby  
+・Ruby on Rails  
+・JavaScript  
+・MySQL  
+・Github  
+・AWS  
+・Visual Studio Code
 
-* ...
+# ローカルでの動作方法
+
+# 工夫したポイント
